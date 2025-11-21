@@ -40,7 +40,7 @@ catboost_info/
 Thumbs.db
 
 # Data files (большие файлы - должны быть в S3)
-data/
+data/*.parquet
 recsys/data/*.parquet
 recsys/data/*.pkl
 recsys/recommendations/*.parquet
